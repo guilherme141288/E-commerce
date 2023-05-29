@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>E-Commerce Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 40px;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+        grid-gap: 20px; /* Adjust the gap between grid items as needed */
+        justify-items: center; /* Align items horizontally in the center of each grid cell */
+        align-items: center; /* Align items vertically in the center of each grid cell */
+        
+    }
+    
+    .product {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+      
+      
+
+    }
+    
+    .product img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-info {
+      flex: 1;
+    }
+    
+    .product-info h2 {
+      
+        margin: 0;
+        margin-top: 0;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .product-info p {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #777;
+    }
+    
+    .product-info span {
+      font-weight: bold;
+    }
+
+    .product-image {
+        text-align: center;
+    }
+
+    .product-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+
+
+
+    .add-to-cart {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .add-to-cart:hover {
+        background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Nossos Produtos</h1> 
+  <div class="container">
+    
+    <div class="product">
+        <div class="product-image">
+          <a href="product1-large.jpg" target="_blank">
+            <img src="product1.jpg" alt="Product 1">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 1</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="product-image">
+          <a href="product2-large.jpg" target="_blank">
+            <img src="product2.jpg" alt="Product 2">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 2</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+          <a href="product3-large.jpg" target="_blank">
+            <img src="product3.jpg" alt="Product 3">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 3</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+          <a href="product4-large.jpg" target="_blank">
+            <img src="product4.jpg" alt="Product 4">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 4</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+          <a href="product5-large.jpg" target="_blank">
+            <img src="product5.jpg" alt="Product 5">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 5</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="product-image">
+          <a href="product6-large.jpg" target="_blank">
+            <img src="product6.jpg" alt="Product 6">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 6</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="product-image">
+          <a href="product7-large.jpg" target="_blank">
+            <img src="product7.jpg" alt="Product 7">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 7</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="product-image">
+          <a href="product8-large.jpg" target="_blank">
+            <img src="product8.jpg" alt="Product 8">
+          </a>
+        </div>
+        <div class="product-info">
+          <h2>Produto 8</h2>
+          <p><span>Preço:</span> $19.99</p>
+          <p><span>Marca:</span> ABC Company</p>
+          <p><span>Uso:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
